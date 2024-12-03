@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speaking Level Test</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./asset/css/Dark_and_light.css" />
+    <link rel="stylesheet" href="./asset/css/page4_practice with AI.css" />
+  </head>
+  <body>
+    <div id="toggle">
+      <i class="indicator"></i>
+    </div>
+    <script>
+      const body = document.querySelector("body");
+      const toggle = document.getElementById("toggle");
+      toggle.onclick = function () {
+        toggle.classList.toggle("active");
+        body.classList.toggle("active");
+      };
+    </script>
+    <div class="page3">
+      <div class="page3-title">
+        <div class="element-align-center-left">
+          <h1>Speaking Level Test</h1>
+          <h3 style="font-size: 16px">
+            Find out your English level and get level up recommendations
+          </h3>
+          <h3 style="font-size: 16px; font-weight: normal">
+            Free plan allows one attempt, Pro plan allows unlimited attempts
+          </h3>
+        </div>
+        <button class="button_style_1 element-align-bottom-left">Start</button>
+        <img
+          class="element-align-center-right"
+          src="./asset/img/Image/image 94.png"
+          alt="Icon"
+        />
+      </div>
+
+      <div class="AI">
+        <img
+          src="./asset/img/Image/Ai.png"
+          alt="AI Image"
+          class="element-align-center-center"
+        />
+        <div class="Detail">
+          <div class="tilte">Pronunciation Error</div>
+          <p style="color: white; margin: 31px">
+            <strong>Error Details:</strong>
+          </p>
+          <ul>
+            <li>You said the sound /b/, but the correct sound is /p/</li>
+            <li>Mouth is not fully opened.</li>
+            <li>Tongue is in the wrong position</li>
+            <li>The sound produced is not clear</li>
+          </ul>
+          <p style="color: white; margin: 31px">
+            <strong>Correction Suggestions:</strong>
+          </p>
+          <ol>
+            <li>Try pronouncing the word more slowly and clearly</li>
+            <li>Adjust your mouth and tongue position.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="options">
+        <div>
+          <a href="./Basic_page.html"
+            ><button class="button_style_1">Back to Basic</button></a
+          >
+          <a href="./Shadowing.html"
+            ><button class="button_style_1 button_style_1_modifies">
+              Back to Audio
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
